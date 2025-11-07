@@ -82,7 +82,7 @@ export default function Drawer({ open, onClose, title, children, panelClassName 
           <button
             onClick={onClose}
             aria-label="Fechar"
-            className="text-gray-600 hover:text-gray-900"
+            className="text-white hover:text-gray-200"
           >
             ✕
           </button>
