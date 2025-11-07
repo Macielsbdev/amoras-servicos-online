@@ -11,7 +11,8 @@ export default function Header() {
   alt="Logo Amoras"
   width={250}
   height={250}
-  className="w-20 h-20 md:w-32 md:h-32 rounded-full object-cover scale-150"
+  className="w-16 h-16 md:w-40 md:h-40 rounded-full object-cover" 
+  /* Removi o scale-150 e aumentei o tamanho base para w-40 h-40 */
 />
         
         {/* Menu - esconder em telas pequenas */}
