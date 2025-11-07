@@ -87,7 +87,7 @@ export default function Drawer({ open, onClose, title, children, panelClassName 
             ✕
           </button>
         </div>
-        <div>{children}</div>
+        <div className="text-gray-800">{children}</div>
       </aside>
     </div>,
     document.body
