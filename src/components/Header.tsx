@@ -9,9 +9,9 @@ export default function Header() {
 <Image
   src="/asamoras.jpg"
   alt="Logo Amoras"
-  width={200}
-  height={200}
-  className="w-20 h-20 md:w-32 md:h-32 object-contain scale-175"
+  width={250}
+  height={250}
+  className="w-20 h-20 md:w-32 md:h-32 rounded-full object-cover scale-150"
 />
         
         {/* Menu - esconder em telas pequenas */}
