@@ -22,7 +22,7 @@ export default function Contato() {
             href="mailto:amoras.expressoes@gmail.com"
             className="text-white hover:text-blue-500 hover:underline transition"
           >
-            amoras.expressoes@gmail.com
+            amoras.expresss@gmail.com
           </a>
         </p>
         

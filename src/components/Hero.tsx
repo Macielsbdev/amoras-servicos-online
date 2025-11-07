@@ -15,7 +15,7 @@ export default function Hero() {
             
         </h1>
         <p className="text-white">
-            Currículo, Impressões, Scanner, Plastificação. Tudo Online.
+            Currículo, Impressões, Scanner, Plastificação.
         </p>
         <Link 
             href="#servicos" scroll={false}

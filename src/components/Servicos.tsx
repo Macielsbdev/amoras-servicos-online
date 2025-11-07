@@ -81,21 +81,25 @@ export default function Servicos() {
                   <>
                     <p className="font-semibold">Scanner — Digitalização de Documentos</p>
                     <p className="mt-3">Alta qualidade de digitalização.</p>
-                    <p className="mt-3 font-semibold">Preço a partir de R$ 1,00 por página.</p>
+                    <p className="mt-3 font-semibold">Preço a partir de R$ 3,00 por página.</p>
                   </>
                 )}
                 {openService === "impressao" && (
                   <>
                     <p className="font-semibold">Impressões — Documentos e Trabalhos</p>
                     <p className="mt-3">Colorido e preto e branco.</p>
-                    <p className="mt-3 font-semibold">Preço a partir de R$ 0,50 por página.</p>
+                    <p className="mt-3 font-semibold">Preço a partir de R$ 1,00 (preto e branco) e 2,00 (colorido) por página.</p>
                   </>
                 )}
                 {openService === "plastificacao" && (
                   <>
                     <p className="font-semibold">Plastificação</p>
                     <p className="mt-3">Proteção em vários tamanhos.</p>
-                    <p className="mt-3 font-semibold">Preço a partir de R$ 3,00 por folha.</p>
+                    <p className="mt-3 font-semibold">Documentos pequenos (RG, CPF, Título de Eleitor)
+                      Preço a partir de R$ 3,00 ppor página.
+                    </p>
+                    <p className="mt-3 font-semibold">Tamanho A4 (folha ofício) Preço a partir de R$ 5,00 por página.
+                    </p>
                   </>
                 )}
                 {openService === "curriculo" && (
