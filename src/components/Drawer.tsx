@@ -73,7 +73,7 @@ export default function Drawer({ open, onClose, title, children, panelClassName 
   tabIndex={-1}
   className={
     "ml-auto w-full h-full bg-white overflow-auto p-6 shadow-2xl focus:outline-none " +
-    "sm:w-11/12 md:w-96 lg:w-[420px] rounded-l-2xl [&_*]:text-gray-800 " + // ← CORRETO: [&_*]:text-gray-800
+    "sm:w-11/12 md:w-96 lg:w-[420px] rounded-l-2xl" + // ← CORRETO: [&_*]:text-gray-800
     panelClassName
   }
 >
@@ -82,8 +82,7 @@ export default function Drawer({ open, onClose, title, children, panelClassName 
           <button
             onClick={onClose}
             aria-label="Fechar"
-            className="!text-white hover:text-gray-200"
-            style={{color: "white"}}
+            className="px-4 py-2 bg-purple-600 text-white rounded-md cursor-pointer [color:white!important]"
             >
             ✕
           </button>

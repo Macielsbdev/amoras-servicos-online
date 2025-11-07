@@ -96,7 +96,7 @@ export default function Servicos() {
                     <p className="font-semibold">Plastificação</p>
                     <p className="mt-3">Proteção em vários tamanhos.</p>
                     <p className="mt-3 font-semibold">Documentos pequenos (RG, CPF, Título de Eleitor)
-                      Preço a partir de R$ 3,00 ppor página.
+                      Preço a partir de R$ 3,00 por página.
                     </p>
                     <p className="mt-3 font-semibold">Tamanho A4 (folha ofício) Preço a partir de R$ 5,00 por página.
                     </p>
