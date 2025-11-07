@@ -66,17 +66,17 @@ export default function Drawer({ open, onClose, title, children, panelClassName 
         aria-hidden="true"
       />
       <aside
-        ref={panelRef}
-        role="dialog"
-        aria-modal="true"
-        aria-label={title ?? "Detalhes do serviço"}
-        tabIndex={-1}
-        className={
-          "ml-auto w-full h-full bg-white overflow-auto p-6 shadow-2xl focus:outline-none " +
-          "sm:w-11/12 md:w-96 lg:w-[420px] rounded-l-2xl text-gray-800 " +
-          panelClassName
-        }
-      >
+  ref={panelRef}
+  role="dialog"
+  aria-modal="true"
+  aria-label={title ?? "Detalhes do serviço"}
+  tabIndex={-1}
+  className={
+    "ml-auto w-full h-full bg-white overflow-auto p-6 shadow-2xl focus:outline-none " +
+    "sm:w-11/12 md:w-96 lg:w-[420px] rounded-l-2xl [&_*]:text-gray-800 " + // ← CORRETO: [&_*]:text-gray-800
+    panelClassName
+  }
+>
         <div className="flex items-start justify-between mb-4">
           <h3 className="text-xl font-semibold text-purple-700">{title}</h3>
           <button
