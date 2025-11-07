@@ -82,7 +82,7 @@ export default function Drawer({ open, onClose, title, children, panelClassName 
           <button
             onClick={onClose}
             aria-label="Fechar"
-            className="px-4 py-2 bg-purple-600 text-white rounded-md cursor-pointer [color:white!important]"
+            className="px-4 py-2 bg-purple-600 text-white rounded-md !cursor-pointer [color:white!important]"
             >
             ✕
           </button>
