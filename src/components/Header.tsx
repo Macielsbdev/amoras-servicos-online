@@ -45,10 +45,11 @@ export default function Header() {
 
         {/* Menu mobile - visível apenas em telas pequenas */}
         <nav className="flex md:hidden gap-4 text-sm">
-          <Link href="/#inicio" className="text-white">Início</Link>
-          <Link href="/#servicos" className="text-white">Serviços</Link>
-          <Link href="/#contato" className="text-white">Contato</Link>
-          <Link href="/sobre" className="text-white">Sobre</Link>
+         <Link href="/#inicio" scroll={true} className="text-white">Início</Link>
+         <Link href="/#servicos" scroll={true} className="text-white">Serviços</Link>
+         <Link href="/#contato" scroll={true} className="text-white">Contato</Link>
+         <Link href="/#sobre" scroll={true} className="text-white">Sobre</Link>
+
         </nav>
       </div>
     </header>
